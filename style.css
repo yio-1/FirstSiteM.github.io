@@ -1,0 +1,108 @@
+span{
+    font-style: italic;
+}
+
+.span2{
+    font-style:italic;
+    font-weight: 700;
+}
+
+
+.div1>p{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.div1{
+    display: inline-block;
+    border: 2px solid rgb(0, 102, 255);
+    padding-right: 5px;
+    padding-bottom: ;
+    margin-top: 5px;
+}
+
+.img-con{
+    float: right;
+    border: 3px solid green;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.img-1{
+    width: 100px;
+}
+
+.img-con>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Верхняя навигационная понель */
+.navig-panel{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 232, 250);
+    
+}
+
+.navig-panel>nav>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navig-panel>nav>ul>li>a{
+    display: block;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+/* Контент секция */
+.content{
+    padding-left: 20px;
+}
+/* Медиа редактирование */
+@media (max-width:700px){
+    .navig-panel{
+        flex-direction: column;
+    }
+}
+
+/* Боковая навигационная панель */
+.mane-page{
+    display: flex;
+}
+.header-left-navpanel{
+    width: 12%;
+    background-color: rgb(238, 229, 230);
+
+}
+
+.header-left-navpanel>img{
+    width: 220px;
+}
+
+.header-left-navpanel>ul{
+     list-style: none;
+     margin: 10px;
+     padding: 10px;
+} 
+
+.header-left-navpanel>p{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(241, 30, 23);
+}
+
+
+/* Панель + контент */
+.section-navpevel-content{
+    width: 92%;
+
+}
+
+
