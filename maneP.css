@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mane-page {
+  display: flex;
+  
+}
+
+/* Боковая панель */
+.left-panel {
+  width: 15%;
+}
+
+.img-left {
+  display: flex;
+  flex-direction: column;
+}
+.img-left ul {
+  list-style: none;
+}
+
+.img-left > img {
+  padding: 10px;
+  width: 300px;
+}
+
+.left-panel-ul > li {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.left-panel-ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-panel-ul li:hover {
+  text-decoration: 1px underline;
+}
+
+/* Центральная панель */
+.cent-content {
+  display: inline-block;
+  width: 85%;
+  padding-left: 30px;
+}
+
+.cent-content p {
+  width: 800px;
+}
+
+.video {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  
+}
+
+.video > video {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  
+}
+
+/* foter */
+
+.foter{
+  background-color: rgba(241, 239, 239, 0.788);
+  padding-bottom: 0;
+  margin-bottom: 0;
+    
+
+}
